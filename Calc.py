@@ -1,16 +1,16 @@
 x = float(input("Enter number 1 :"))
 y = float(input("Enter number 2 :"))
 z = input("Enter the desired operation: ")
-if z == "+"
+if z == "+":
   print(x + y)
-elif z == "-"
+elif z == "-":
   print(x - y)
-elif z == "*"
+elif z == "*":
   print(x * y)
-elif z == "/"
-  if y != 0
+elif z == "/":
+  if y != 0:
    print(x/y)
-  else
+  else:
    print("Cannot divide by zero")
-else 
+else:
   print("Invalid operator")
